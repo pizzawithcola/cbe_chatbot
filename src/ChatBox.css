@@ -1,0 +1,23 @@
+.chat-box {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+.message.user {
+  background-color: #d1e7dd;
+  align-self: flex-start;
+}
+
+.message.assistant {
+  background-color: #ffeeba;
+  align-self: flex-end;
+}
